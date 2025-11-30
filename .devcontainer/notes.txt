@@ -1,0 +1,7 @@
+flutter run -d web-server --web-hostname=0.0.0.0 --web-port=8080
+flutter run -d web-server --wasm --web-hostname=0.0.0.0 --web-port=8080
+
+flutter build web && firebase deploy --only hosting
+flutter build web --wasm && firebase deploy --only hosting
+
+flutter build web --wasm && firebase hosting:channel:deploy preview

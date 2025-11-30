@@ -1,0 +1,36 @@
+{
+    "name": "Flutter Dev Container",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "dart-code.dart-code",
+                "dart-code.flutter",
+                "dbaeumer.vscode-eslint",
+                "esbenp.prettier-vscode",
+                "ms-vscode.vscode-node-azure-pack"
+            ],
+            "settings": {
+                "dart.debugExternalPackageLibraries": false,
+                "dart.debugSdkLibraries": false,
+                "terminal.integrated.defaultProfile.linux": "bash",
+                "terminal.integrated.profiles.linux": {
+                    "bash": {
+                        "path": "bash",
+                        "icon": "terminal-bash"
+                    }
+                }
+            }
+        }
+    },
+    "forwardPorts": [
+        3000,
+        8080,
+        9005
+    ],
+    "remoteUser": "vscode",
+    // Add these post-create commands to ensure NVM and Firebase are working properly
+    "postCreateCommand": "echo 'source ~/.bashrc' >> ~/.profile && echo 'export NVM_DIR=\"$HOME/.nvm\" && [ -s \"$NVM_DIR/nvm.sh\" ] && . \"$NVM_DIR/nvm.sh\"' >> ~/.profile"
+}

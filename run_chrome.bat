@@ -1,0 +1,3 @@
+@echo off
+echo Running Flutter app on Chrome...
+flutter run -d chrome %*

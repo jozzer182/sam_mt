@@ -1,0 +1,16 @@
+enum CampoChatarra {
+  id,
+  pedido,
+  acta,
+  fecha_i,
+  almacenista_i,
+  tel_i,
+  soporte_i,
+  lcl,
+  items,
+  comentario_i,
+  balance,
+  reportado,
+  estadopersona,
+  estado,
+}
