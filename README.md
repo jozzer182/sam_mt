@@ -1,4 +1,4 @@
-# SAM+ | Sistema de Administración de Materiales
+# SAM+ | Material Administration System
 
 <div align="center">
 
@@ -9,176 +9,176 @@
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 
-**Sistema empresarial multiplataforma para gestión integral de inventarios, logística y operaciones de almacén**
+**Multi-platform enterprise system for comprehensive inventory management, logistics, and warehouse operations**
 
-[Características](#-características) • [Tecnologías](#-stack-tecnológico) • [Arquitectura](#-arquitectura) • [Instalación](#-instalación) • [Contacto](#-contacto)
+[Features](#-features) • [Technologies](#-tech-stack) • [Architecture](#-architecture) • [Installation](#-installation) • [Contact](#-contact)
 
 </div>
 
 ---
 
-## 📋 Descripción
+## 📋 Description
 
-**SAM+** es una aplicación empresarial completa desarrollada en Flutter que permite la gestión integral de operaciones logísticas y de inventario. El sistema fue diseñado para optimizar los procesos de control de materiales, planificación de recursos y trazabilidad de operaciones en entornos industriales.
+**SAM+** is a comprehensive enterprise application developed in Flutter that enables comprehensive management of logistics and inventory operations. The system was designed to optimize material control processes, resource planning, and operation traceability in industrial environments.
 
 <div align="center">
   <img src="images/example.gif" alt="SAM+ Demo" width="600"/>
 </div>
 
-### 🎯 Problema que Resuelve
+### 🎯 Problems Solved
 
-- **Control de inventario en tiempo real** con sincronización multi-plataforma
-- **Trazabilidad completa** de movimientos de materiales (ingresos, traslados, consumos)
-- **Integración con sistemas SAP** (MB51, MB52, MM60) para conciliación de datos
-- **Gestión de logística inversa** (chatarra, devoluciones, carretes, transformadores)
-- **Planificación de recursos** con fichas técnicas y gestión de pedidos
+- **Real-time inventory control** with multi-platform synchronization
+- **Complete traceability** of material movements (entries, transfers, consumptions)
+- **SAP system integration** (MB51, MB52, MM60) for data reconciliation
+- **Reverse logistics management** (scrap, returns, reels, transformers)
+- **Resource planning** with technical data sheets and order management
 
 ---
 
-## ✨ Características
+## ✨ Features
 
-### 📦 Gestión de Inventario
-- **Nuevo Ingreso/Traslado**: Registro de movimientos de materiales
-- **Informe de Saldos**: Visualización consolidada de existencias
-- **Inventario en tiempo real**: Sincronización con múltiples fuentes de datos
+### 📦 Inventory Management
+- **New Entry/Transfer**: Material movement registration
+- **Balance Report**: Consolidated stock visualization
+- **Real-time inventory**: Synchronization with multiple data sources
 
-### 🔄 Control de Movimientos
-- **Planillas digitales**: Creación y gestión de planillas de movimiento
-- **Registros históricos**: Trazabilidad completa de operaciones
-- **Conciliaciones**: Herramientas de conciliación contable
-- **Balances**: Generación automática de balances de materiales
+### 🔄 Movement Control
+- **Digital forms**: Movement form creation and management
+- **Historical records**: Complete operation traceability
+- **Reconciliations**: Accounting reconciliation tools
+- **Balances**: Automatic material balance generation
 
 <div align="center">
-  <img src="images/exampleplanilla.gif" alt="Gestión de Planillas" width="500"/>
+  <img src="images/exampleplanilla.gif" alt="Form Management" width="500"/>
 </div>
 
-### 📊 Integración SAP
-- **MB51**: Visualización de documentos de material
-- **MB52**: Stock por almacén
-- **MM60**: Análisis de movimientos
-- **LCL/DFLCL**: Gestión de localizaciones
+### 📊 SAP Integration
+- **MB51**: Material document visualization
+- **MB52**: Stock by warehouse
+- **MM60**: Movement analysis
+- **LCL/DFLCL**: Location management
 
-### 🔧 Planificación
-- **Fichas técnicas**: Gestión detallada de especificaciones
-- **Pedidos**: Control de solicitudes de material
-- **Fechas FEM**: Planificación de entregas
-- **Aportación y Sustitutos**: Gestión de alternativas de materiales
+### 🔧 Planning
+- **Technical data sheets**: Detailed specification management
+- **Orders**: Material request control
+- **FEM Dates**: Delivery planning
+- **Contributions and Substitutes**: Material alternatives management
 
-### ♻️ Logística Inversa
-- **Chatarra**: Control de materiales para disposición
-- **Carretes y Transformadores**: Gestión de activos retornables
-- **Trazabilidad Barcode**: Seguimiento por código de barras
-- **Homologación**: Control de materiales homologados
+### ♻️ Reverse Logistics
+- **Scrap**: Disposal material control
+- **Reels and Transformers**: Returnable asset management
+- **Barcode Traceability**: Barcode tracking
+- **Homologation**: Homologated material control
 
 ---
 
-## 🛠 Stack Tecnológico
+## 🛠 Tech Stack
 
 ### Frontend
-| Tecnología | Uso |
-|------------|-----|
-| **Flutter 3.7+** | Framework UI multiplataforma |
-| **Dart** | Lenguaje de programación |
-| **flutter_bloc** | Gestión de estado (BLoC Pattern) |
-| **Material Design 3** | Sistema de diseño |
+| Technology | Usage |
+|------------|-------|
+| **Flutter 3.7+** | Multi-platform UI framework |
+| **Dart** | Programming language |
+| **flutter_bloc** | State management (BLoC Pattern) |
+| **Material Design 3** | Design system |
 
-### Backend & Servicios
-| Tecnología | Uso |
-|------------|-----|
-| **Firebase Auth** | Autenticación de usuarios |
-| **Cloud Firestore** | Base de datos en tiempo real |
+### Backend & Services
+| Technology | Usage |
+|------------|-------|
+| **Firebase Auth** | User authentication |
+| **Cloud Firestore** | Real-time database |
 | **Supabase** | Backend as a Service (PostgreSQL) |
-| **Google Apps Script** | APIs personalizadas |
+| **Google Apps Script** | Custom APIs |
 
-### Herramientas
-| Tecnología | Uso |
-|------------|-----|
-| **fl_chart** | Visualización de datos |
-| **pdf** | Generación de reportes |
-| **file_picker** | Gestión de archivos |
-| **csv** | Procesamiento de datos |
+### Tools
+| Technology | Usage |
+|------------|-------|
+| **fl_chart** | Data visualization |
+| **pdf** | Report generation |
+| **file_picker** | File management |
+| **csv** | Data processing |
 
 ---
 
-## 🏗 Arquitectura
+## 🏗 Architecture
 
-El proyecto implementa una arquitectura limpia basada en el patrón **BLoC** (Business Logic Component) con separación por features:
+The project implements a clean architecture based on the **BLoC** (Business Logic Component) pattern with feature-based separation:
 
 ```
 lib/
-├── bloc/                    # Estado global de la aplicación
-│   ├── main_bloc.dart       # BLoC principal
-│   ├── main_state.dart      # Estados
-│   └── main_event.dart      # Eventos
-├── config.dart              # Configuración centralizada
-├── resources/               # Recursos compartidos
+├── bloc/                    # Global application state
+│   ├── main_bloc.dart       # Main BLoC
+│   ├── main_state.dart      # States
+│   └── main_event.dart      # Events
+├── config.dart              # Centralized configuration
+├── resources/               # Shared resources
 │   └── constant/
-│       └── apis.dart        # Endpoints de APIs
-├── [feature]/               # Módulos por funcionalidad
-│   ├── controller/          # Lógica de negocio
-│   ├── model/               # Modelos de datos
-│   └── view/                # Widgets y pantallas
-├── login/                   # Autenticación
-├── home/                    # Dashboard principal
-├── inventario/              # Gestión de inventario
-├── planilla/                # Planillas de movimiento
-├── ficha/                   # Fichas técnicas
-├── chatarra/                # Logística inversa
-└── ...                      # Más módulos
+│       └── apis.dart        # API endpoints
+├── [feature]/               # Modules by functionality
+│   ├── controller/          # Business logic
+│   ├── model/               # Data models
+│   └── view/                # Widgets and screens
+├── login/                   # Authentication
+├── home/                    # Main dashboard
+├── inventario/              # Inventory management
+├── planilla/                # Movement forms
+├── ficha/                   # Technical data sheets
+├── chatarra/                # Reverse logistics
+└── ...                      # More modules
 ```
 
-### Patrones de Diseño
-- **BLoC Pattern**: Separación de UI y lógica de negocio
-- **Repository Pattern**: Abstracción de fuentes de datos
-- **Feature-First Structure**: Organización por módulos funcionales
-- **Dependency Injection**: Configuración centralizada
+### Design Patterns
+- **BLoC Pattern**: UI and business logic separation
+- **Repository Pattern**: Data source abstraction
+- **Feature-First Structure**: Functional module organization
+- **Dependency Injection**: Centralized configuration
 
 ---
 
-## 🚀 Instalación
+## 🚀 Installation
 
-### Prerrequisitos
-- Flutter SDK 3.7 o superior
-- Dart SDK 3.0 o superior
-- Cuenta de Firebase
-- Cuenta de Supabase (opcional)
+### Prerequisites
+- Flutter SDK 3.7 or higher
+- Dart SDK 3.0 or higher
+- Firebase account
+- Supabase account (optional)
 
-### Pasos
+### Steps
 
-1. **Clonar el repositorio**
+1. **Clone the repository**
 ```bash
-git clone https://github.com/tu-usuario/sam-inventory-management.git
+git clone https://github.com/your-username/sam-inventory-management.git
 cd sam-inventory-management
 ```
 
-2. **Instalar dependencias**
+2. **Install dependencies**
 ```bash
 flutter pub get
 ```
 
-3. **Configurar variables de entorno**
+3. **Configure environment variables**
 ```bash
-# Copiar archivo de ejemplo
+# Copy example file
 cp .env.example .env
 
-# Editar con tus credenciales
-# Ver .env.example para las variables requeridas
+# Edit with your credentials
+# See .env.example for required variables
 ```
 
-4. **Configurar Firebase**
+4. **Configure Firebase**
 ```bash
-# Opción 1: Usar FlutterFire CLI
+# Option 1: Use FlutterFire CLI
 dart pub global activate flutterfire_cli
 flutterfire configure
 
-# Opción 2: Copiar archivos de ejemplo
+# Option 2: Copy example files
 cp lib/firebase_options.example.dart lib/firebase_options.dart
 cp android/app/google-services.example.json android/app/google-services.json
 cp ios/Runner/GoogleService-Info.example.plist ios/Runner/GoogleService-Info.plist
-# Luego editar con tus credenciales
+# Then edit with your credentials
 ```
 
-5. **Ejecutar la aplicación**
+5. **Run the application**
 ```bash
 # Web
 flutter run -d chrome
@@ -192,9 +192,9 @@ flutter run -d ios
 
 ---
 
-## 📁 Variables de Entorno
+## 📁 Environment Variables
 
-El proyecto usa `flutter_dotenv` para gestionar variables de entorno. Ver `.env.example`:
+The project uses `flutter_dotenv` to manage environment variables. See `.env.example`:
 
 ```env
 # Supabase
@@ -208,59 +208,59 @@ API_FEM=https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec
 
 ---
 
-## 📸 Capturas
+## 📸 Screenshots
 
 <div align="center">
 <table>
   <tr>
     <td align="center"><img src="images/pole.png" alt="Logo" width="100"/></td>
-    <td align="center"><img src="images/truck.png" alt="Logística" width="100"/></td>
-    <td align="center"><img src="images/transformer.png" alt="Transformadores" width="100"/></td>
+    <td align="center"><img src="images/truck.png" alt="Logistics" width="100"/></td>
+    <td align="center"><img src="images/transformer.png" alt="Transformers" width="100"/></td>
   </tr>
 </table>
 </div>
 
 ---
 
-## 🔒 Seguridad
+## 🔒 Security
 
-- Autenticación con Firebase Auth
-- Verificación de email obligatoria
-- Gestión de permisos por roles
-- Variables de entorno para credenciales sensibles
-- Conexiones HTTPS para todas las APIs
-
----
-
-## 📈 Métricas del Proyecto
-
-- **+40 módulos** funcionales
-- **+200 archivos Dart**
-- Soporte multiplataforma (Web, Android, iOS, Windows)
-- Integración con 3+ sistemas externos
-- Gestión de estado reactiva con BLoC
+- Firebase Auth authentication
+- Mandatory email verification
+- Role-based permission management
+- Environment variables for sensitive credentials
+- HTTPS connections for all APIs
 
 ---
 
-## 🤝 Contribución
+## 📈 Project Metrics
 
-Las contribuciones son bienvenidas. Por favor:
-
-1. Fork el proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
+- **40+ functional modules**
+- **200+ Dart files**
+- Multi-platform support (Web, Android, iOS, Windows)
+- Integration with 3+ external systems
+- Reactive state management with BLoC
 
 ---
 
-## 📄 Licencia
+## 🤝 Contributing
 
-Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
+Contributions are welcome. Please:
+
+1. Fork the project
+2. Create a branch for your feature (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ---
 
-## 📬 Contacto
+## 📄 License
+
+This project is under the MIT License. See the `LICENSE` file for more details.
+
+---
+
+## 📬 Contact
 
 **José Zarabanda**
 
@@ -272,8 +272,8 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 
 <div align="center">
 
-**⭐ Si este proyecto te resulta útil, considera darle una estrella ⭐**
+**⭐ If you find this project useful, please consider giving it a star ⭐**
 
-Desarrollado con ❤️ usando Flutter
+Developed with ❤️ using Flutter
 
 </div>
